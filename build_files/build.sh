@@ -16,6 +16,7 @@ declare -A RPM_PACKAGES=(
   ["fedora"]="\
     kitty \
     libvirt \
+    nmap \
     qemu-kvm \
     virt-manager \
     virt-viewer \
