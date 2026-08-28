@@ -14,10 +14,14 @@ log() {
 # RPM packages list
 declare -A RPM_PACKAGES=(
   ["fedora"]="\
+    guestfs-tools \
     kitty \
     libvirt \
+    libvirt-daemon-config-network \
+    libvirt-daemon-kvm \
     nmap \
     qemu-kvm \
+    virt-install \
     virt-manager \
     virt-viewer \
     " 
